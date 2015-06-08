@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="7" inline="false" x="87" y="122">
+  <block type="controls_whileUntil" id="7" inline="true" x="137" y="405">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="33">
@@ -7,7 +7,7 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="controls_if" id="60" inline="false">
+      <block type="controls_if" id="60" inline="true">
         <mutation elseif="1" else="1"></mutation>
         <value name="IF0">
           <block type="logic_compare" id="88" inline="true">
@@ -18,7 +18,7 @@
               </block>
             </value>
             <value name="B">
-              <block type="sensor_object" id="102">
+              <block type="sensor_object" id="102" collapsed="true">
                 <field name="OBJECT">LEFTFRONT</field>
               </block>
             </value>
