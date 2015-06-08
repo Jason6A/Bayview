@@ -14,7 +14,7 @@
             <field name="OP">GT</field>
             <value name="A">
               <block type="math_number" id="132">
-                <field name="NUM">70</field>
+                <field name="NUM">80</field>
               </block>
             </value>
             <value name="B">
@@ -32,7 +32,7 @@
             <field name="OP">GT</field>
             <value name="A">
               <block type="math_number" id="177">
-                <field name="NUM">70</field>
+                <field name="NUM">50</field>
               </block>
             </value>
             <value name="B">
