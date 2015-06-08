@@ -11,7 +11,7 @@
         <mutation else="1"></mutation>
         <value name="IF0">
           <block type="logic_compare" id="88" inline="true">
-            <field name="OP">LT</field>
+            <field name="OP">GT</field>
             <value name="A">
               <block type="math_number" id="132">
                 <field name="NUM">70</field>
@@ -35,7 +35,7 @@
             <mutation else="1"></mutation>
             <value name="IF0">
               <block type="logic_compare" id="176" inline="true">
-                <field name="OP">LT</field>
+                <field name="OP">GT</field>
                 <value name="A">
                   <block type="math_number" id="177">
                     <field name="NUM">70</field>
